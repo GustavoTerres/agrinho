@@ -20,11 +20,11 @@ body {
 
 .cabeçalho-imagem {
     width: 15px;
-    margin-right: 12px;
+    margin-right: 0px;
 }
 
 .navegacao {
-    margin-left: auto;
+    margin-left: 0;
 }
 
 .lista-cabecalho {
@@ -33,7 +33,7 @@ body {
 
 .item-lista {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 
 .item-lista a {
