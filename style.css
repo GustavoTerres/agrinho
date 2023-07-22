@@ -1,93 +1,137 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-
-body{
-    background-color: darkgrey;
-}
-.cabeçalho{
-    background-color: #3E65EE;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.cabeçalho {
     background-color: #333;
     color: #fff;
-    text-align: center;
-    padding: 1rem;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  nav ul {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.cabeçalho-imagem {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.navegacao {
+    margin-left: auto;
+}
+
+.lista-cabecalho {
     list-style: none;
-    padding: 0;
-  }
-  
-  nav ul li {
+}
+
+.item-lista {
     display: inline-block;
-    margin-right: 1rem;
-  }
-  
-  nav ul li a {
-    color: #fff;
+    margin-right: 20px;
+}
+
+.item-lista a {
     text-decoration: none;
-  }
-  
-  main {
-    padding: 2rem;
-  }
-  
-  section {
-    margin-bottom: 2rem;
-  }
-  
-  section h2 {
-    color: #333;
-  }
-  
-  section img {
-    max-width: 100%;
-  }
-  
-  form {
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.secao-sobre {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.secao-sobre h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.imagem-sobre {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.secao-projetos {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.secao-projetos h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.projeto {
+    margin-bottom: 30px;
+}
+
+.projeto img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+.projeto h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.secao-contato {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.secao-contato h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.formulario-contato {
     display: flex;
     flex-direction: column;
-  }
-  
-  form label {
-    margin-bottom: 0.5rem;
-  }
-  
-  form input,
-  form textarea {
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  form button {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.formulario-contato label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.formulario-contato textarea {
+    resize: vertical;
+}
+
+.formulario-contato button {
     background-color: #333;
     color: #fff;
-    padding: 0.5rem 1rem;
+    padding: 10px;
     border: none;
     cursor: pointer;
-  }
-  
-  footer {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.rodape {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    padding: 1rem;
-    background-color: #f0f0f0;
-  }
-  
+    padding: 10px;
+}

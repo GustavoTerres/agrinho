@@ -1,61 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ações que Transformam o Mundo</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ações que Transformam o Mundo</title>
 </head>
 <body>
     <header class="cabeçalho">
-    <h1>Ações que Transformam o Mundo</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">Sobre</a></li>
-        <li><a href="#projects">Projetos</a></li>
-        <li><a href="#contact">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+        <img class="cabeçalho-imagem" src="logo.png" alt="Logo do site">
+        <nav class="navegacao">
+            <ul class="lista-cabecalho">
+                <li class="item-lista"><a href="#sobre">Sobre</a></li>
+                <li class="item-lista"><a href="#projetos">Projetos</a></li>
+                <li class="item-lista"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <section id="about">
-      <h2>Sobre nós</h2>
-      <p>Bem-vindo ao nosso site dedicado a compartilhar histórias inspiradoras de ações que transformam o mundo.</p>
-      <img src="caminho/para/imagem-1.jpg" alt="Imagem 1">
-    </section>
+    <main>
+        <section id="sobre" class="secao-sobre">
+            <h2>Sobre nós</h2>
+            <p>Bem-vindo ao nosso site dedicado a compartilhar histórias inspiradoras de ações que transformam o mundo. Aqui, você encontrará projetos e iniciativas que estão fazendo a diferença positiva em nossa sociedade e no meio ambiente.</p>
+            <img class="imagem-sobre" src="acao-transformadora.png" alt="Ação transformadora">
+        </section>
 
-    <section id="projects">
-      <h2>Projetos Transformadores</h2>
-      <div class="project">
-        <img src="caminho/para/imagem-2.jpg" alt="Projeto 1">
-        <h3>Projeto 1</h3>
-        <p>Descrição do projeto 1...</p>
-      </div>
-      <div class="project">
-        <img src="caminho/para/imagem-3.jpg" alt="Projeto 2">
-        <h3>Projeto 2</h3>
-        <p>Descrição do projeto 2...</p>
-      </div>
-    </section>
+        <section id="projetos" class="secao-projetos">
+            <h2>Projetos Transformadores</h2>
+            <div class="projeto">
+                <img src="projeto-1.jpg" alt="Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Descrição do projeto 1...</p>
+            </div>
+            <div class="projeto">
+                <img src="projeto-2.jpg" alt="Projeto 2">
+                <h3>Projeto 2</h3>
+                <p>Descrição do projeto 2...</p>
+            </div>
+            <!-- Adicione mais projetos conforme necessário -->
+        </section>
 
-    <section id="contact">
-      <h2>Entre em Contato</h2>
-      <p>Se você conhece alguma ação transformadora que gostaria de compartilhar conosco, entre em contato pelo formulário abaixo:</p>
-      <form>
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="message">Mensagem:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
-  </main>
+        <section id="contato" class="secao-contato">
+            <h2>Entre em Contato</h2>
+            <p>Se você conhece alguma ação transformadora que gostaria de compartilhar conosco ou deseja colaborar com nosso site, entre em contato preenchendo o formulário abaixo:</p>
+            <form class="formulario-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
 
-  <footer>
-    <p>&copy; 2023 Seu Nome. Todos os direitos reservados.</p>
-  </footer>
+    <footer class="rodape">
+        <p>&copy; 2023 Ações que Transformam o Mundo. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
