@@ -24,7 +24,7 @@ body {
 }
 
 .navegacao {
-    margin-left: 0;
+    margin-left: auto;
 }
 
 .lista-cabecalho {
@@ -33,7 +33,7 @@ body {
 
 .item-lista {
     display: inline-block;
-    margin-right: 12px;
+    margin-right: 20px;
 }
 
 .item-lista a {
@@ -63,7 +63,6 @@ main {
     width: 100%;
     max-width: 800px;
     margin-top: 20px;
-    margin: 0;
 }
 
 .secao-projetos {
