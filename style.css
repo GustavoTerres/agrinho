@@ -48,12 +48,14 @@ main {
 
 .secao-sobre {
     text-align: center;
+    margin-bottom: 40px;
     background-color: aqua;
 }
 
 .secao-sobre h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    background-color: aqua;
 }
 
 .imagem-sobre {
