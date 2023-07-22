@@ -47,16 +47,14 @@ main {
 }
 
 .secao-sobre {
-    background-color:bisque;
-    text-align:left;
+    background-color: bisque;
+    text-align: left;
     margin-bottom: 40px;
-    
 }
 
 .secao-sobre h2 {
     font-size: 60px;
     margin-bottom: 20px;
-    
 }
 
 .imagem-sobre {
@@ -66,10 +64,9 @@ main {
 }
 
 .secao-projetos {
-    background-color:rgb(255, 215, 165);
+    background-color: rgb(255, 215, 165);
     text-align: center;
     margin-bottom: 40px;
-    
 }
 
 .secao-projetos h2 {
@@ -93,7 +90,7 @@ main {
 }
 
 .secao-contato {
-    background-color:rgb(250, 214, 170);
+    background-color: rgb(250, 214, 170);
     text-align: center;
     margin-bottom: 40px;
 }
