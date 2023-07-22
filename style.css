@@ -47,7 +47,7 @@ main {
 }
 
 .secao-sobre {
-    background-color: #ff0000;
+    background-color:bisque;
     text-align: center;
     margin-bottom: 40px;
     
@@ -66,6 +66,7 @@ main {
 }
 
 .secao-projetos {
+    background-color:rgb(255, 215, 165);
     text-align: center;
     margin-bottom: 40px;
     
@@ -92,6 +93,7 @@ main {
 }
 
 .secao-contato {
+    background-color:rgb(250, 214, 170);
     text-align: center;
     margin-bottom: 40px;
 }
