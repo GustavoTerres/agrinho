@@ -1,4 +1,4 @@
-<?php
+<php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome = $_POST["nome"];
     $email = $_POST["email"];
@@ -21,4 +21,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<p>Ocorreu um erro ao enviar a mensagem. Por favor, tente novamente mais tarde.</p>";
     }
 }
-?>
+>
