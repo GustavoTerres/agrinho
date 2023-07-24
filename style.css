@@ -67,8 +67,8 @@ main {
 }
 
 .imagem-sobre {
-    width: 150%;
-    max-width: 150px;
+    width: 200%;
+    max-width: 200px;
     margin-top: 20px;
     border-radius: 5px;
 }
